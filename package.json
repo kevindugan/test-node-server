@@ -1,0 +1,26 @@
+{
+  "name": "test-node-server",
+  "version": "1.0.0",
+  "description": "Simple Node Server for Deployment on OCP",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindugan/test-node-server.git"
+  },
+  "author": "Kevin J. Dugan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevindugan/test-node-server/issues"
+  },
+  "homepage": "https://github.com/kevindugan/test-node-server#readme",
+  "private": true,
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "@hapi/vision": "^6.0.1",
+    "handlebars": "^4.7.7"
+  }
+}
