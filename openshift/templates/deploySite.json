@@ -88,7 +88,7 @@
               "from": {
                 "kind": "ImageStreamTag",
                 "namespace": "${NAMESPACE}",
-                "name": "nodejs-${NODEJS_VERSION}"
+                "name": "nodejs:${NODEJS_VERSION}"
               },
               "env":  [
                 {
@@ -225,7 +225,7 @@
         "displayName": "Namespace",
         "description": "The OpenShift Namespace where the ImageStream resides.",
         "required": true,
-        "value": "registry.redhat.io/rhel8"
+        "value": "openshift"
       },
       {
         "name": "NODEJS_VERSION",
